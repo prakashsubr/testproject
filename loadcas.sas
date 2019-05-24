@@ -1,4 +1,5 @@
 /* Test comment */
+/* Test comment asdfasdf*/
 %macro loadDS2CAS(SrcLibDS=, SrcPath=, CASHost=, CASPort=, CASLib=, ACTION=);
 %if %INDEX(&SrcLibDS,.)=0 %then
 		%do;
